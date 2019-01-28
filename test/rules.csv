@@ -1,4 +1,0 @@
-rule,,,,,
-,condition,days_last_sold,greater_than,4,
-,,,,,
-,action,increase_price,PARAMETER,sales_percentage,0.2

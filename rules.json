@@ -1,0 +1,26 @@
+[
+  {
+    "conditions": {
+      "any": [
+        {
+          "name": "current_balance",
+          "operator": "less_than",
+          "value": 100
+        },
+        {
+          "name": "current_balance",
+          "operator": "greater_than",
+          "value": 150
+        }
+      ]
+    },
+    "actions": [
+      {
+        "name": "current_balance_less",
+        "params": {
+          "score_positive": 0.25
+        }
+      }
+    ]
+  }
+]
